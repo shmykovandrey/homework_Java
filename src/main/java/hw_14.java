@@ -11,8 +11,8 @@ public class hw_14 {
 
         System.out.println(myIntList);
 
-        for (int i = 100; i <=1000 ; i+=2) {
-            myIntList.remove(Integer.valueOf(i));
+        for (Integer i = 100; i <=1000 ; i+=2) {
+            myIntList.remove(i);
         }
         System.out.println(myIntList);
     }
